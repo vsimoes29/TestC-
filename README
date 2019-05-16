@@ -1,0 +1,15 @@
+This is a test for a C++ application using Qt/VTK/ITK.
+
+ITK is used for Image Processing.
+VTK is used for Mesh Processing.
+QT is used for UI and files management.
+
+- Install environment following instructions in Install.pdf. You need VS2017. ExternalLibs are compiled in Release mode only and should be installed on the system.
+
+- The goal of this application is to load a pre-segmented CT scan of the shoulder. The data are provided separately in Zip file.
+
+1) Select and read folder to find images
+2) Read all Images using ITK - itkImageFileReader
+3) Build a 3D VTK Volume to display the 2D images in Qt view using VTK - vtkImageData
+4) Segment data to build the 3D meshes - itkBinaryImageThresholdFilter - vtkMarchingCubes
+5) Display the 3D meshes in 3D view - vtkMapper - vtkActor
