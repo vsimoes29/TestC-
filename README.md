@@ -20,3 +20,5 @@ QT is used for UI and files management.
 
 5) Display the 3D meshes in 3D view - vtkMapper - vtkActor
 ![screenshot3](https://user-images.githubusercontent.com/50709142/57864448-3075c800-77fc-11e9-8421-33fb6f388add.PNG)
+
+Please use branch exos for assistance. Several are refered in the source code.
