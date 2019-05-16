@@ -48,9 +48,9 @@ void View2D::initData()
 	m_ui.slider->setValue(0);
 
 	//Connect slider to 2D view
-	QObject::connect(m_ui.slider, SIGNAL(valueChanged(int)), this, SLOT(slotUpdateSlice(int)));
+	//TODO
 	//Connect slider to LCD number
-	QObject::connect(m_ui.slider, SIGNAL(valueChanged(int)), m_ui.lcdNumber, SLOT(display(int)));
+	//TODO
 
 	//Update color
 	double range[2];
