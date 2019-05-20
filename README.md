@@ -7,6 +7,8 @@ QT is used for UI and files management.
 - Install environment following instructions in Install.pdf. You need VS2017. ExternalLibs are compiled in Release mode only and should be installed on the system.
 ExternalLibs, Testing data and Install.pdf are available here: https://drive.google.com/drive/folders/1TyoN5u6bnOPJMv_dYDp8rSOkomU4Ui2h?usp=sharing
 
+- Regarding Testing data, it is composed of several patients. Each patient folder contains a pre-segmented CT scan of the shoulder. Humerus is defined as value 2 and Scapula is defined as value 1.
+
 - The goal of this application is to load a pre-segmented CT scan of the shoulder. The data are provided separately in Zip file.
 
 1) Select and read folder to find images
